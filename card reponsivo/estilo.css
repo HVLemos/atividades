@@ -1,0 +1,61 @@
+/*CONTAINER*/
+
+
+.container{
+    width: 1024px;
+    display: block;
+    background-color: antiquewhite;
+
+}
+
+.title{
+    width: 1024px;
+    height: 220px;
+    border-radius: 1px;
+    padding: 16px;
+
+}
+
+.imgtxt{
+    display: flex;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+    align-items: center;
+}
+
+
+/*TEXTO*/
+h2{
+    line-height: 32px;
+    font-size: 24px;
+    font-weight: 600
+}
+
+p{
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400
+}
+
+/*BOTAO*/
+.botao{
+     width: 597px;
+     height: 48px;
+     border-radius: 4px;
+     padding: 12px 24px 12px 24px;
+     background-color: #2D68FE;
+
+    /*TEXTO*/
+    line-height: 24px;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 500   
+}
+
+/*IMAGEM*/
+
+.image{
+    width: 353px;
+    height: 188px;
+    border-radius: 4px;
+}
