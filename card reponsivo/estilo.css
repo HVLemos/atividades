@@ -1,28 +1,3 @@
-/*CONTAINER*/
-
-
-.container{
-    width: 1024px;
-    display: block;
-    background-color: antiquewhite;
-
-}
-
-.title{
-    width: 1024px;
-    height: 220px;
-    border-radius: 1px;
-    padding: 16px;
-
-}
-
-.imgtxt{
-    display: flex;
-    margin-bottom: 10px;
-    background-color: aliceblue;
-    align-items: center;
-}
-
 
 /*TEXTO*/
 h2{
@@ -32,6 +7,7 @@ h2{
 }
 
 p{
+    text-align: left;
     line-height: 24px;
     font-size: 16px;
     font-weight: 400
@@ -39,11 +15,16 @@ p{
 
 /*BOTAO*/
 .botao{
-     width: 597px;
+     width: 100%;
      height: 48px;
      border-radius: 4px;
-     padding: 12px 24px 12px 24px;
+     padding: 12px 0;
      background-color: #2D68FE;
+     text-decoration: none;
+     justify-content: center;
+     margin: 40px 0;
+     display: flex;
+     text-transform: uppercase;
 
     /*TEXTO*/
     line-height: 24px;
@@ -52,10 +33,61 @@ p{
     font-weight: 500   
 }
 
-/*IMAGEM*/
+.container{
+    max-width: 1060px;
+    margin: 0 auto;
+
+}
+
+.box{
+     display: flex;
+     margin-top: 16px;
+     border: 1px solid white;
+}
+
+.title{
+    width: 639px;
+    margin-left: 16px;
+}
 
 .image{
     width: 353px;
     height: 188px;
     border-radius: 4px;
+    margin: 16px 0 16px 16px;
+}
+
+a{
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    img{
+        width: 320px;
+        height: 194px;
+    }
+
+    .botao{
+        margin: 10px 0;
+        border-radius: 4px;
+        margin-bottom: 0px;
+
+    }
+
+    .box{
+        width: 360px;
+        height: 458px;
+        flex-direction: column;
+    }
+
+    .container{
+        max-width: 360px;
+        height: 458px;
+    }
+
+    .title{
+        width: 328px;
+        height: 402px;
+    }
+    
 }
