@@ -15,16 +15,17 @@ p{
 
 /*BOTAO*/
 .botao{
-     width: 100%;
+     max-width: 597px;
      height: 48px;
      border-radius: 4px;
-     padding: 12px 0;
      background-color: #2D68FE;
      text-decoration: none;
      justify-content: center;
      margin: 40px 0;
      display: flex;
      text-transform: uppercase;
+     align-items: center;
+
 
     /*TEXTO*/
     line-height: 24px;
@@ -42,7 +43,7 @@ p{
 .box{
      display: flex;
      margin-top: 16px;
-     border: 1px solid white;
+     border: 1px solid rgb(8, 8, 8);
 }
 
 .title{
@@ -54,7 +55,7 @@ p{
     width: 353px;
     height: 188px;
     border-radius: 4px;
-    margin: 16px 0 16px 16px;
+    margin: 16px;
 }
 
 a{
